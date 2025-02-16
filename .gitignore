@@ -7,7 +7,7 @@
 /out
 /include
 /target
-/Packages
+/DevPackages
 /JestLua
 *.tsbuildinfo
 *.tgz

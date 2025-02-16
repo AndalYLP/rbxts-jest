@@ -75,7 +75,7 @@ pub async fn start() {
         "[ERROR] Error creating result dir."
     );
 
-    let mut result = read_dir("./Packages/_Index")
+    let mut result = read_dir("./DevPackages/_Index")
         .await
         .expect("[FATAL] Error reading JestLua dir.");
 
