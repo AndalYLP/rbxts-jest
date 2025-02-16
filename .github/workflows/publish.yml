@@ -28,9 +28,13 @@ jobs:
           path: packages/jest_vendor/jest-lua.rbxm
 
       - name: Patch npm version
-        run: npm version patch
+        run: npm version patch -m "package.json version bump to %s"
         working-directory: packages/jest_vendor
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to npm
-        run: echo npm publish
+        run: npm publish
         working-directory: packages/jest_vendor
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
