@@ -1,0 +1,3 @@
+export type JestSnapshot_SnapshotResolver = module.JestSnapshot_SnapshotResolver
+export type JestSnapshot_SnapshotStateType = module.JestSnapshot_SnapshotStateType
+return module
