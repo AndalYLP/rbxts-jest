@@ -6,6 +6,9 @@
 /packages/*/LICENSE.md
 /out
 /include
+/target
+/Packages
+/JestLua
 *.tsbuildinfo
 *.tgz
 .DS_Store
