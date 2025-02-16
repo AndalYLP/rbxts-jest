@@ -6,4 +6,3 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "fs"] }
 futures = "0.3"
-regex = "1.11.1"
