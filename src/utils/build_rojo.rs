@@ -4,6 +4,6 @@ pub fn start() {
     let output = Command::new("rojo")
         .args(["build", "-o", "packages/jest-vendor/jest-lua.rbxm"])
         .output()
-        .expect("Error building with wally");
+        .expect("Error building with rojo");
     assert!(output.status.success(), "[FATAL] error building JestLua");
 }
